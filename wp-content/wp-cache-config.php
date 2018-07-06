@@ -7,7 +7,7 @@ See wp-cache.php for author details.
 
 $wp_cache_mobile_groups = '';
 $dismiss_readable_warning = 1;
-$wp_cache_home_path = '/wordpress/';
+$wp_cache_home_path = '/crst.net/';
 $wp_cache_slash_check = 1;
 $cache_page_secret = '05709e0f3f66d9414fa932077306bf12';
 $cache_time_interval = 600;
