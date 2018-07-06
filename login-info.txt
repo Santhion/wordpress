@@ -1,0 +1,9 @@
+CRST Wordpress Login
+root
+localhost
+"no password"
+db name: website
+
+username: kmcready
+password: HP3bv!&IK%@&LPEYRH
+email: kmcready@crst.net
