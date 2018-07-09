@@ -1486,12 +1486,14 @@ function ampforwp_new_dir( $dir ) {
 	        } else {
 	          $structured_data_logo = $structured_data_main_logo;
 	        }
-	        $metadata['publisher']['logo'] = array(
-	          '@type'   => 'ImageObject',
-	          'url'     =>  $structured_data_logo ,
-	          'height'  => $ampforwp_sd_height,
-	          'width'   => $ampforwp_sd_width,
-	        );
+	        if(isset($metadata['publisher']) && $metadata['publisher']){
+		        $metadata['publisher']['logo'] = array(
+		          '@type'   => 'ImageObject',
+		          'url'     =>  $structured_data_logo ,
+		          'height'  => $ampforwp_sd_height,
+		          'width'   => $ampforwp_sd_width,
+		        );
+		    }
 
 	        //code for adding 'description' meta from Yoast SEO
 
@@ -1499,7 +1501,7 @@ function ampforwp_new_dir( $dir ) {
 	         if ( class_exists('WPSEO_Frontend') ) {
 	           $front = WPSEO_Frontend::get_instance();
 	           $desc = $front->metadesc( false );
-	           if ( $desc ) {
+	           if ( $desc && isset($metadata['description']) ) {
 	             $metadata['description'] = $desc;
 	           }
 
@@ -1508,7 +1510,7 @@ function ampforwp_new_dir( $dir ) {
 	           if ( class_exists('WPSEO_Meta') ) {
 	             $custom_fp_desc = WPSEO_Meta::get_value('metadesc', $post_id );
 	             if ( is_home() && $redux_builder_amp['amp-frontpage-select-option'] ) {
-	               if ( $custom_fp_desc ) {
+	               if ( $custom_fp_desc && isset($metadata['description']) ){
 	                 $metadata['description'] = $custom_fp_desc;
 	               } else {
 	                 unset( $metadata['description'] );
@@ -1542,13 +1544,14 @@ function ampforwp_new_dir( $dir ) {
 					$structured_data_image = $structured_data_image_url;
 					$structured_data_height = intval($redux_builder_amp['amp-structured-data-placeholder-image-height']);
 					$structured_data_width = intval($redux_builder_amp['amp-structured-data-placeholder-image-width']);
-
-					$metadata['image'] = array(
-						'@type' 	=> 'ImageObject',
-						'url' 		=> $structured_data_image ,
-						'height' 	=> $structured_data_height,
-						'width' 	=> $structured_data_width,
-					);
+					if(isset($metadata['image']) && $metadata['image'] ){	
+						$metadata['image'] = array(
+							'@type' 	=> 'ImageObject',
+							'url' 		=> $structured_data_image ,
+							'height' 	=> $structured_data_height,
+							'width' 	=> $structured_data_width,
+						);
+					}
 			}
 			// Custom Structured Data information for Archive, Categories and tag pages.
 			if ( is_archive() ) {
@@ -1563,13 +1566,14 @@ function ampforwp_new_dir( $dir ) {
 							} else {
 								$structured_data_author 		= "admin";
 							}
-
-					$metadata['image'] = array(
-						'@type' 	=> 'ImageObject',
-						'url' 		=> $structured_data_image ,
-						'height' 	=> $structured_data_height,
-						'width' 	=> $structured_data_width,
-					);
+					if(isset($metadata['image']) && $metadata['image'] ){
+						$metadata['image'] = array(
+							'@type' 	=> 'ImageObject',
+							'url' 		=> $structured_data_image ,
+							'height' 	=> $structured_data_height,
+							'width' 	=> $structured_data_width,
+						);
+					}
 					$metadata['author'] = array(
 						'@type' 	=> 'Person',
 						'name' 		=> $structured_data_author ,
@@ -1579,22 +1583,26 @@ function ampforwp_new_dir( $dir ) {
 
 			// Get Image metadata from the Custom Field
 			if(ampforwp_is_custom_field_featured_image() && ampforwp_cf_featured_image_src()){
-				$metadata['image'] = array(
-						'@type' 	=> 'ImageObject',
-						'url' 		=> ampforwp_cf_featured_image_src('url') ,
-						'width' 	=> ampforwp_cf_featured_image_src('width'),
-						'height' 	=> ampforwp_cf_featured_image_src('height'),
-				);	
+				if(isset($metadata['image']) && $metadata['image'] ){
+					$metadata['image'] = array(
+							'@type' 	=> 'ImageObject',
+							'url' 		=> ampforwp_cf_featured_image_src('url') ,
+							'width' 	=> ampforwp_cf_featured_image_src('width'),
+							'height' 	=> ampforwp_cf_featured_image_src('height'),
+					);
+				}
 			}
 
 			// Get image metadata from The Content
 			if( true == $redux_builder_amp['ampforwp-featured-image-from-content'] && ampforwp_get_featured_image_from_content() ){
-				$metadata['image'] = array(
-						'@type' 	=> 'ImageObject',
-						'url' 		=> ampforwp_get_featured_image_from_content('url') ,
-						'width' 	=> ampforwp_get_featured_image_from_content('width'),
-						'height' 	=> ampforwp_get_featured_image_from_content('height'),
-				);
+				if(isset($metadata['image']) && $metadata['image'] ){
+					$metadata['image'] = array(
+							'@type' 	=> 'ImageObject',
+							'url' 		=> ampforwp_get_featured_image_from_content('url') ,
+							'width' 	=> ampforwp_get_featured_image_from_content('width'),
+							'height' 	=> ampforwp_get_featured_image_from_content('height'),
+					);
+				}
 			}
 
 			if( in_array( "image" , $metadata )  ) {
@@ -3462,12 +3470,14 @@ function ampforwp_search_or_homepage_or_staticpage_metadata( $metadata, $post ) 
 						$dateModified = date( 'Y-m-d H:i:s', current_time( 'timestamp', 0 ) );
 					}
 				}
-			$metadata['image'] = array(
-				'@type' 	=> 'ImageObject',
-				'url' 		=> $structured_data_image ,
-				'height' 	=> $structured_data_height,
-				'width' 	=> $structured_data_width,
-			);
+			if(isset($metadata['image']) && $metadata['image'] ){
+				$metadata['image'] = array(
+					'@type' 	=> 'ImageObject',
+					'url' 		=> $structured_data_image ,
+					'height' 	=> $structured_data_height,
+					'width' 	=> $structured_data_width,
+				);
+			}
 			$metadata['datePublished'] = $datePublished; // proper published date added
 			$metadata['dateModified'] = $dateModified; // proper modified date
 			$remove 	= '/'. AMPFORWP_AMP_QUERY_VAR;
@@ -3484,7 +3494,9 @@ function ampforwp_search_or_homepage_or_staticpage_metadata( $metadata, $post ) 
 	}
 	// Description for Structured Data
 	$desc =   esc_attr( convert_chars( stripslashes( ampforwp_generate_meta_desc('json'))) );
-	$metadata['description'] = $desc;
+	if(isset($metadata['description']) && $metadata['description'] ){
+		$metadata['description'] = $desc;
+	}
 	return $metadata;
 }
 
@@ -6197,56 +6209,94 @@ if( ! function_exists(' ampforwp_modify_menu_content ') ){
 		return $menu;
 	}
 }
+/*
+ * Fetches the logo data 
+ * More details about the fix https://github.com/ahmedkaludi/accelerated-mobile-pages/pull/2317
+ * Props to: https://github.com/saucal for suggesting the fix.
+*/
+
+function ampforwp_default_logo_data() {
+	global $redux_builder_amp, $ampwforwp_default_logo_data;
+
+	if( $ampwforwp_default_logo_data ) {
+		return $ampwforwp_default_logo_data;
+	}
+
+	$logo_id		= '';
+	$image 			= array();
+	$value 			= '';
+	$logo_alt		= '';
+
+	$logo_id = get_theme_mod( 'custom_logo' );
+	if( empty( $logo_id ) ) {
+		$logo_id = (integer) $redux_builder_amp['opt-media']['id'];
+	}
+
+	if( empty( $logo_id ) ) {
+		return false;
+	}
+
+	if( ! wp_attachment_is( 'image', $logo_id ) ) {
+		$logo_url = $redux_builder_amp['opt-media']['url'];
+		$image = @getimagesize( $logo_url );
+	} else {
+		$imageDetail = wp_get_attachment_image_src( $logo_id , 'full');
+		$logo_url = $imageDetail[0];
+		$image[0] = $imageDetail[1];
+		$image[1] = $imageDetail[2];
+	}
+
+	$logo_alt = get_post_meta( $logo_id, '_wp_attachment_image_alt', true);
+
+	$ampwforwp_default_logo_data = array(
+		'logo_id' => $logo_id,
+		'logo_url' => $logo_url,
+		'logo_alt' => $logo_alt,
+		'logo_size' => $image
+	);
+	return $ampwforwp_default_logo_data;
+}
 
 // 101. Function for Logo attributes
 function ampforwp_default_logo($param=""){
 	global $redux_builder_amp;
-	$logo_id		= '';
-	$image 			= '';
-	$value 			= '';
-	$logo_alt		= '';
-	$logo_url		= $redux_builder_amp['opt-media']['url'];
-	if($logo_url){
-		$logo_id  = get_theme_mod( 'custom_logo' );
-		$logo_alt = get_post_meta( $logo_id, '_wp_attachment_image_alt', true) ;
-		$image 	  = @getimagesize($redux_builder_amp['opt-media']['url']);
-
-		if(empty($image) || $image==false){
-			$logo_id  = attachment_url_to_postid($redux_builder_amp['opt-media']['url']);
-			$imageDetail 	 = wp_get_attachment_image_src( $logo_id , 'full');
-			$image[0] = $imageDetail[1];
-			$image[1] = $imageDetail[2];
-		}
-		switch ($param) {
-			case 'url':
-					$value = $logo_url;
-				break;
-			case 'width':
-				if (true == $redux_builder_amp['ampforwp-custom-logo-dimensions'] && 'prescribed' == $redux_builder_amp['ampforwp-custom-logo-dimensions-options']) {
-					$value = $redux_builder_amp['opt-media-width'];
-				}
-				else 
-					$value = $image[0];
-				break;
-			case 'height':
-				if (true == $redux_builder_amp['ampforwp-custom-logo-dimensions'] && 'prescribed' == $redux_builder_amp['ampforwp-custom-logo-dimensions-options']) {
-					$value = $redux_builder_amp['opt-media-height'];
-				}
-				else
-					$value = $image[1];
-				break;
-			case 'alt':
-				if($logo_alt){
-					$value = $logo_alt;
-				}
-				else
-					$value = get_bloginfo('name');
-				break;	
-			default:
-				$value = $logo_url;
-				break;
-		}
+	$value 		= '';
+	$logo_alt 	= '';
+	$data 		= ampforwp_default_logo_data();
+	if( ! $data ) {
+		return $value;
 	}
+
+	switch ($param) {
+		case 'url':
+				$value = $data['logo_url'];
+			break;
+		case 'width':
+			if (true == $redux_builder_amp['ampforwp-custom-logo-dimensions'] && 'prescribed' == $redux_builder_amp['ampforwp-custom-logo-dimensions-options']) {
+				$value = $redux_builder_amp['opt-media-width'];
+			}
+			else 
+				$value = $data['logo_size'][0];
+			break;
+		case 'height':
+			if (true == $redux_builder_amp['ampforwp-custom-logo-dimensions'] && 'prescribed' == $redux_builder_amp['ampforwp-custom-logo-dimensions-options']) {
+				$value = $redux_builder_amp['opt-media-height'];
+			}
+			else
+				$value = $data['logo_size'][1];
+			break;
+		case 'alt':
+			if($logo_alt){
+				$value = $data['logo_alt'];
+			}
+			else
+				$value = get_bloginfo('name');
+			break;	
+		default:
+			$value = $data['logo_url'];
+			break;
+	}
+
 	return $value;
 } 
 // Envira Lazy Load compatibility
