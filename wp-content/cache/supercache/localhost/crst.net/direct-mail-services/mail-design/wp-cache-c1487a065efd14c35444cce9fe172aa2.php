@@ -7,7 +7,7 @@
 
     <title>Mail Design, Graphic Design for Direct Mail | Cornerstone Services, Inc.</title>
 
-<!-- This site is optimized with the Yoast SEO plugin v7.7.3 - https://yoast.com/wordpress/plugins/seo/ -->
+<!-- This site is optimized with the Yoast SEO plugin v7.8 - https://yoast.com/wordpress/plugins/seo/ -->
 <meta name="description" content="Mail design is not just about creating something that looks incredible, but displaying your message and capturing the attention of your recipients."/>
 <link rel="canonical" href="http://localhost/crst.net/direct-mail-services/mail-design/" />
 <!-- / Yoast SEO plugin. -->
@@ -38,7 +38,7 @@ img.emoji {
 <link rel='stylesheet' id='dashicons-css'  href='http://localhost/crst.net/wp-includes/css/dashicons.min.css?ver=4.9.7' type='text/css' media='all' />
 <link rel='stylesheet' id='admin-bar-css'  href='http://localhost/crst.net/wp-includes/css/admin-bar.min.css?ver=4.9.7' type='text/css' media='all' />
 <link rel='stylesheet' id='contact-form-7-css'  href='http://localhost/crst.net/wp-content/plugins/contact-form-7/includes/css/styles.css?ver=5.0.2' type='text/css' media='all' />
-<link rel='stylesheet' id='yoast-seo-adminbar-css'  href='http://localhost/crst.net/wp-content/plugins/wordpress-seo/css/dist/adminbar-773.min.css?ver=7.7.3' type='text/css' media='all' />
+<link rel='stylesheet' id='yoast-seo-adminbar-css'  href='http://localhost/crst.net/wp-content/plugins/wordpress-seo/css/dist/adminbar-780.min.css?ver=7.8' type='text/css' media='all' />
 <link rel='stylesheet' id='parent-style-css'  href='http://localhost/crst.net/wp-content/themes/materialis/style.css?ver=4.9.7' type='text/css' media='all' />
 <link rel='stylesheet' id='materialis-style-css'  href='http://localhost/crst.net/wp-content/themes/materialis-child/style.css?ver=1.0.99' type='text/css' media='all' />
 <style id='materialis-style-inline-css' type='text/css'>
@@ -84,7 +84,7 @@ MaterialisTheme = {"blog_posts_as_masonry_grid":false}
 
 
 <!-- This site is optimized with the Schema plugin v1.7 - https://schema.press -->
-<script type="application/ld+json">{"@context":"http:\/\/schema.org\/","@type":"Article","mainEntityOfPage":{"@type":"WebPage","@id":"http:\/\/localhost\/crst.net\/direct-mail-services\/mail-design\/"},"url":"http:\/\/localhost\/crst.net\/direct-mail-services\/mail-design\/","headline":"Mail Design, Graphic Design for Direct Mail","datePublished":"2018-06-26T19:00:08+00:00","dateModified":"2018-07-09T20:30:37+00:00","publisher":{"@type":"Organization","@id":"http:\/\/localhost\/crst.net\/#organization","name":"Cornerstone Services, Inc.","logo":{"@type":"ImageObject","url":"http:\/\/localhost\/crst.net\/wp-content\/uploads\/2018\/06\/publisher-logo-e1530287182847.png","width":600,"height":60}},"image":{"@type":"ImageObject","url":"http:\/\/localhost\/crst.net\/wp-content\/uploads\/2018\/07\/graphic-design.png","width":1280,"height":716},"description":"Mail Design Mail design is not just about creating something that looks incredible. It is also about displaying your message and capturing the attention of your recipients. Our USPS Mail Design Professionals® can take your concept all the way to creation using modern approaches and eye-catching designs. We are constantly researching","author":{"@type":"Person","name":"kmcready","url":"http:\/\/localhost\/crst.net\/author\/kmcready\/"}}</script>
+<script type="application/ld+json">{"@context":"http:\/\/schema.org\/","@type":"Article","mainEntityOfPage":{"@type":"WebPage","@id":"http:\/\/localhost\/crst.net\/direct-mail-services\/mail-design\/"},"url":"http:\/\/localhost\/crst.net\/direct-mail-services\/mail-design\/","headline":"Mail Design, Graphic Design for Direct Mail","datePublished":"2018-06-26T19:00:08+00:00","dateModified":"2018-07-10T14:22:56+00:00","publisher":{"@type":"Organization","@id":"http:\/\/localhost\/crst.net\/#organization","name":"Cornerstone Services, Inc.","logo":{"@type":"ImageObject","url":"http:\/\/localhost\/crst.net\/wp-content\/uploads\/2018\/06\/publisher-logo-e1530287182847.png","width":600,"height":60}},"image":{"@type":"ImageObject","url":"http:\/\/localhost\/crst.net\/wp-content\/uploads\/2018\/07\/graphic-design.png","width":1280,"height":716},"description":"Mail Design Mail design is not just about creating something that looks incredible. It is also about displaying your message and capturing the attention of your recipients. Our USPS Mail Design Professionals® can take your concept all the way to creation using modern approaches and eye-catching designs. We are constantly researching","author":{"@type":"Person","name":"kmcready","url":"http:\/\/localhost\/crst.net\/author\/kmcready\/"}}</script>
 
 	<style type="text/css">
 		/* admin bar */
@@ -311,7 +311,9 @@ MaterialisTheme = {"blog_posts_as_masonry_grid":false}
 <p>Modern mail design pieces can work very well with <a href="https://hullabaloo.co.uk/blog/high-res-low-res-make-sure-digital-images-suitable-print/" target="_blank" rel="noopener">high resolution images</a> and avoids cluttering the piece with text. One nice image can tell the story that a whole paragraph of copy text would otherwise.</p>
 <h5><strong>Keep it simple</strong></h5>
 <p>Flat colors, a logo, and some text are all you really need for mail design when it’s done correctly. <a href="https://www.lifewire.com/contrasting-colors-in-design-1078274" target="_blank" rel="noopener">Using complementary colors in an interesting way</a> removes the necessity of images. Design practices change all the time but a clean look that gets your message across will always be in style.</p>
+</div>
 <p>&nbsp;</p>
+<div style="text-align: left;">
 <p style="text-align: center;"><span style="color: #54617a; font-size: 1.5rem; text-align: center;">We follow all USPS® mail piece regulations when creating a mail design by using the </span><a style="font-size: 1.5rem; text-align: center;" href="http://localhost/wordpress/direct-mail-tools/mailing-letter-rates/" rel="nofollow">USPS Notice 67®</a><span style="color: #54617a; font-size: 1.5rem; text-align: center;"> tool. Cornerstone Service, Inc. guarantees that all of our designs are approved by the USPS® and can be mailed out successfully.</span></p>
 </div>
 <div class="row">
@@ -325,9 +327,9 @@ MaterialisTheme = {"blog_posts_as_masonry_grid":false}
     <div id="metaslider_container_542">
         <div id="metaslider_542">
             <ul class="slides">
-                <li style="display: none; width: 100%;" class="slide-543 ms-image"><img width="466" height="621" src="http://localhost/crst.net/wp-content/uploads/2018/06/randazzo-business-card.jpg" class="slider-542 slide-543" alt="Buck Randazzo business card" height="450" width="500" rel="" title="Randazzo Landscaping business card" srcset="http://localhost/crst.net/wp-content/uploads/2018/06/randazzo-business-card.jpg 466w, http://localhost/crst.net/wp-content/uploads/2018/06/randazzo-business-card-225x300.jpg 225w" sizes="(max-width: 466px) 100vw, 466px" /><div class="caption-wrap"><div class="caption">Buck Randazzo business card, full color with spot UV gloss</div></div></li>
-                <li style="display: none; width: 100%;" class="slide-544 ms-image"><img width="466" height="621" src="http://localhost/crst.net/wp-content/uploads/2018/06/equinox-stationary.jpg" class="slider-542 slide-544" alt="Equinox Technologies stationary" height="450" width="500" rel="" title="Equinox Technologies stationary" srcset="http://localhost/crst.net/wp-content/uploads/2018/06/equinox-stationary.jpg 466w, http://localhost/crst.net/wp-content/uploads/2018/06/equinox-stationary-225x300.jpg 225w" sizes="(max-width: 466px) 100vw, 466px" /><div class="caption-wrap"><div class="caption">Equinox Technologies stationary materials</div></div></li>
-                <li style="display: none; width: 100%;" class="slide-545 ms-image"><img width="466" height="621" src="http://localhost/crst.net/wp-content/uploads/2018/06/new-paltz-pba-appeal.jpg" class="slider-542 slide-545" alt="New Paltz PBA appeal mailing" height="450" width="500" rel="" title="New Paltz PBA Mailing" srcset="http://localhost/crst.net/wp-content/uploads/2018/06/new-paltz-pba-appeal.jpg 466w, http://localhost/crst.net/wp-content/uploads/2018/06/new-paltz-pba-appeal-225x300.jpg 225w" sizes="(max-width: 466px) 100vw, 466px" /><div class="caption-wrap"><div class="caption">New Paltz PBA appeal mailing materials</div></div></li>
+                <li style="display: none; width: 100%;" class="slide-543 ms-image"><img width="466" height="621" src="http://localhost/crst.net/wp-content/uploads/2018/06/randazzo-business-card.jpg" class="slider-542 slide-543" alt="Buck Randazzo business card" height="450" width="500" rel="" title="Randazzo Landscaping business card" srcset="http://localhost/crst.net/wp-content/uploads/2018/06/randazzo-business-card.jpg 466w, http://localhost/crst.net/wp-content/uploads/2018/06/randazzo-business-card-225x300.jpg 225w" sizes="(max-width: 466px) 100vw, 466px" /></li>
+                <li style="display: none; width: 100%;" class="slide-544 ms-image"><img width="466" height="621" src="http://localhost/crst.net/wp-content/uploads/2018/06/equinox-stationary.jpg" class="slider-542 slide-544" alt="Equinox Technologies stationary" height="450" width="500" rel="" title="Equinox Technologies stationary" srcset="http://localhost/crst.net/wp-content/uploads/2018/06/equinox-stationary.jpg 466w, http://localhost/crst.net/wp-content/uploads/2018/06/equinox-stationary-225x300.jpg 225w" sizes="(max-width: 466px) 100vw, 466px" /></li>
+                <li style="display: none; width: 100%;" class="slide-545 ms-image"><img width="466" height="621" src="http://localhost/crst.net/wp-content/uploads/2018/06/new-paltz-pba-appeal.jpg" class="slider-542 slide-545" alt="New Paltz PBA appeal mailing" height="450" width="500" rel="" title="New Paltz PBA Mailing" srcset="http://localhost/crst.net/wp-content/uploads/2018/06/new-paltz-pba-appeal.jpg 466w, http://localhost/crst.net/wp-content/uploads/2018/06/new-paltz-pba-appeal-225x300.jpg 225w" sizes="(max-width: 466px) 100vw, 466px" /></li>
             </ul>
         </div>
         
@@ -485,12 +487,12 @@ var metaslider_542 = function($) {
 		<li id="wp-admin-bar-my-account" class="menupop with-avatar"><a class="ab-item" aria-haspopup="true" href="http://localhost/crst.net/wp-admin/profile.php">Howdy, <span class="display-name">Sean Griffin</span><img alt='' src='http://1.gravatar.com/avatar/d97423e79084f6278f295efa75e37d22?s=26&#038;r=g' srcset='http://1.gravatar.com/avatar/d97423e79084f6278f295efa75e37d22?s=52&#038;r=g 2x' class='avatar avatar-26 photo' height='26' width='26' /></a><div class="ab-sub-wrapper"><ul id="wp-admin-bar-user-actions" class="ab-submenu">
 		<li id="wp-admin-bar-user-info"><a class="ab-item" tabindex="-1" href="http://localhost/crst.net/wp-admin/profile.php"><img alt='' src='http://1.gravatar.com/avatar/d97423e79084f6278f295efa75e37d22?s=64&#038;r=g' srcset='http://1.gravatar.com/avatar/d97423e79084f6278f295efa75e37d22?s=128&#038;r=g 2x' class='avatar avatar-64 photo' height='64' width='64' /><span class='display-name'>Sean Griffin</span><span class='username'>sgriffin</span></a>		</li>
 		<li id="wp-admin-bar-edit-profile"><a class="ab-item" href="http://localhost/crst.net/wp-admin/profile.php">Edit My Profile</a>		</li>
-		<li id="wp-admin-bar-logout"><a class="ab-item" href="http://localhost/crst.net/wp-login.php?action=logout&#038;_wpnonce=3cd0561362">Log Out</a>		</li></ul></div>		</li></ul>			</div>
-						<a class="screen-reader-shortcut" href="http://localhost/crst.net/wp-login.php?action=logout&#038;_wpnonce=3cd0561362">Log Out</a>
+		<li id="wp-admin-bar-logout"><a class="ab-item" href="http://localhost/crst.net/wp-login.php?action=logout&#038;_wpnonce=d069a70efb">Log Out</a>		</li></ul></div>		</li></ul>			</div>
+						<a class="screen-reader-shortcut" href="http://localhost/crst.net/wp-login.php?action=logout&#038;_wpnonce=d069a70efb">Log Out</a>
 					</div>
 
 		</body>
 </html>
 
-<!-- Dynamic page generated in 0.819 seconds. -->
-<!-- Cached page generated by WP-Super-Cache on 2018-07-09 20:55:36 -->
+<!-- Dynamic page generated in 0.720 seconds. -->
+<!-- Cached page generated by WP-Super-Cache on 2018-07-10 21:24:40 -->

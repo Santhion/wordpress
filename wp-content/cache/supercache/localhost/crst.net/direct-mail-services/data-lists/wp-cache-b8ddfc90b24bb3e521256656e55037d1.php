@@ -7,7 +7,7 @@
 
     <title>Data lists with Mailing Addresses | Cornerstone Services, Inc.</title>
 
-<!-- This site is optimized with the Yoast SEO plugin v7.7.3 - https://yoast.com/wordpress/plugins/seo/ -->
+<!-- This site is optimized with the Yoast SEO plugin v7.8 - https://yoast.com/wordpress/plugins/seo/ -->
 <meta name="description" content="More important than your mailing, are the data lists for the mailing. We&#039;ve created custom filters so you can choose the perfect criteria for data lists."/>
 <link rel="canonical" href="http://localhost/crst.net/direct-mail-services/data-lists/" />
 <!-- / Yoast SEO plugin. -->
@@ -38,7 +38,7 @@ img.emoji {
 <link rel='stylesheet' id='dashicons-css'  href='http://localhost/crst.net/wp-includes/css/dashicons.min.css?ver=4.9.7' type='text/css' media='all' />
 <link rel='stylesheet' id='admin-bar-css'  href='http://localhost/crst.net/wp-includes/css/admin-bar.min.css?ver=4.9.7' type='text/css' media='all' />
 <link rel='stylesheet' id='contact-form-7-css'  href='http://localhost/crst.net/wp-content/plugins/contact-form-7/includes/css/styles.css?ver=5.0.2' type='text/css' media='all' />
-<link rel='stylesheet' id='yoast-seo-adminbar-css'  href='http://localhost/crst.net/wp-content/plugins/wordpress-seo/css/dist/adminbar-773.min.css?ver=7.7.3' type='text/css' media='all' />
+<link rel='stylesheet' id='yoast-seo-adminbar-css'  href='http://localhost/crst.net/wp-content/plugins/wordpress-seo/css/dist/adminbar-780.min.css?ver=7.8' type='text/css' media='all' />
 <link rel='stylesheet' id='parent-style-css'  href='http://localhost/crst.net/wp-content/themes/materialis/style.css?ver=4.9.7' type='text/css' media='all' />
 <link rel='stylesheet' id='materialis-style-css'  href='http://localhost/crst.net/wp-content/themes/materialis-child/style.css?ver=1.0.99' type='text/css' media='all' />
 <style id='materialis-style-inline-css' type='text/css'>
@@ -84,7 +84,7 @@ MaterialisTheme = {"blog_posts_as_masonry_grid":false}
 
 
 <!-- This site is optimized with the Schema plugin v1.7 - https://schema.press -->
-<script type="application/ld+json">{"@context":"http:\/\/schema.org\/","@type":"Article","mainEntityOfPage":{"@type":"WebPage","@id":"http:\/\/localhost\/crst.net\/direct-mail-services\/data-lists\/"},"url":"http:\/\/localhost\/crst.net\/direct-mail-services\/data-lists\/","headline":"Data lists with Mailing Addresses","datePublished":"2018-06-26T18:52:52+00:00","dateModified":"2018-07-09T20:18:13+00:00","publisher":{"@type":"Organization","@id":"http:\/\/localhost\/crst.net\/#organization","name":"Cornerstone Services, Inc.","logo":{"@type":"ImageObject","url":"http:\/\/localhost\/crst.net\/wp-content\/uploads\/2018\/06\/publisher-logo-e1530287182847.png","width":600,"height":60}},"image":{"@type":"ImageObject","url":"http:\/\/localhost\/crst.net\/wp-content\/uploads\/2018\/07\/data.png","width":1280,"height":719},"description":"Data Lists More important than your mailing, are the data lists for the mailing. Great data = good results. Good data = mediocre results. Uncertain data = gambling. At CRST, we don’t believe in gambling. We do believe in knowing something about the data we're using. Cornerstone has created custom","author":{"@type":"Person","name":"kmcready","url":"http:\/\/localhost\/crst.net\/author\/kmcready\/"}}</script>
+<script type="application/ld+json">{"@context":"http:\/\/schema.org\/","@type":"Article","mainEntityOfPage":{"@type":"WebPage","@id":"http:\/\/localhost\/crst.net\/direct-mail-services\/data-lists\/"},"url":"http:\/\/localhost\/crst.net\/direct-mail-services\/data-lists\/","headline":"Data lists with Mailing Addresses","datePublished":"2018-06-26T18:52:52+00:00","dateModified":"2018-07-10T21:34:42+00:00","publisher":{"@type":"Organization","@id":"http:\/\/localhost\/crst.net\/#organization","name":"Cornerstone Services, Inc.","logo":{"@type":"ImageObject","url":"http:\/\/localhost\/crst.net\/wp-content\/uploads\/2018\/06\/publisher-logo-e1530287182847.png","width":600,"height":60}},"image":{"@type":"ImageObject","url":"http:\/\/localhost\/crst.net\/wp-content\/uploads\/2018\/07\/data.png","width":1280,"height":719},"description":"Data Lists More important than your mailing, are the data lists for the mailing. Great data = good results. Good data = mediocre results. Uncertain data = gambling. At CRST, we don’t believe in gambling. We do believe in knowing something about the data we're using. Cornerstone has created custom","author":{"@type":"Person","name":"kmcready","url":"http:\/\/localhost\/crst.net\/author\/kmcready\/"}}</script>
 
 	<style type="text/css">
 		/* admin bar */
@@ -292,7 +292,6 @@ MaterialisTheme = {"blog_posts_as_masonry_grid":false}
    <h2 style="text-align: center;"><strong>Data Lists</strong></h2>
 <div style="text-align: center;"></div>
 <p style="text-align: center;">More important than your mailing, are the data lists for the mailing. <em>Great data = good results. Good data = mediocre results. Uncertain data = gambling</em>. At CRST, we don’t believe in gambling. We do believe in knowing something about the data we&#8217;re using. Cornerstone has created custom <a href="https://www.elections.ny.gov/" target="_blank" rel="noopener">Board of Elections</a> and <a href="https://www1.nyc.gov/site/finance/taxes/property-data-and-lot-information.page" target="_blank" rel="noopener">Real Property Data</a> filters so you can choose the perfect criteria for your data lists.</p>
-<p>&nbsp;</p>
 <h3 style="text-align: left;"><strong>Data Lists Types:</strong></h3>
 <p style="text-align: left;"><strong>Political Registrants</strong> &#8211; <em>People who have voted within a certain time period, specific election, affiliated party, school or fire district.</em></p>
 <p style="text-align: left;"><strong>Real Property Owners</strong> &#8211; <em>People who own property within a specified county.</em></p>
@@ -302,11 +301,48 @@ MaterialisTheme = {"blog_posts_as_masonry_grid":false}
 <p style="text-align: left;"><strong>Dog Owners</strong> &#8211; <em>People who own dogs.</em></p>
 <p style="text-align: left;"><strong>Pool Owners</strong> &#8211; <em>Addresses with pools, their sizes and type (indoor/outdoor, above ground / below ground).</em></p>
 <p style="text-align: left;"><strong>Homes with Children</strong> &#8211; <em>The number of children that live in at a specific address.</em></p>
-<p>&nbsp;</p>
+<h3 style="text-align: left;">Should I use data lists with <span style="text-decoration: underline;">actual names or &#8220;Current Resident&#8221;</span>?</h3>
+<p style="text-align: left;">When working with mailing data lists, you want to ensure that your mailing: a) reaches the target destination and b) gets opened by the recipient. You can actually use a <strong>combination of both</strong> mailing addresses with names and a saturation targeting of all houses using &#8220;Current Resident&#8221;. However, depending on the situation and results you are trying to obtain, you might have to use some strategy in picking correct data lists, and that&#8217;s where we can help. Below are some facts when using mailing addresses with names or &#8220;Current Resident&#8221;:</p>
+<h5 style="text-align: left;"><strong>Mailing addresses with names</strong></h5>
+<ul style="text-align: left;">
+<li>Data lists that have the recipients&#8217; correct name and address tend to get better results and higher rate of opening</li>
+<li>Easier to fix wrong addresses when you have the persons&#8217; name to match using a search tool like <a href="https://thatsthem.com/" target="_blank" rel="noopener">Thatsthem.com</a> or <a href="https://www.whitepages.com/" target="_blank" rel="noopener">Whitepages.com</a></li>
+<li>The mail piece does not come across as <em><strong>spam mail</strong></em></li>
+<li>Better for targeting specific people within an area</li>
+<li><em>Can always add &#8220;or Current Resident&#8221; to the Title field when printing underneath the name</em></li>
+</ul>
+<h5 style="text-align: left;"><strong>Using &#8220;Current Resident&#8221;</strong></h5>
+<ul style="text-align: left;">
+<li style="text-align: left;">No need to make sure the name and address matches, as long as the address is verified by the USPS</li>
+<li style="text-align: left;">Data processing time and chance of errors significantly reduced</li>
+<li style="text-align: left;">Can use a printing template of &#8220;Current Resident&#8221; instead of variable data lists (clients, customers, prospects)</li>
+<li>Select a <a href="https://smartystreets.com/docs/append-carrier-routes" target="_blank" rel="noopener">carrier route</a>, entire town or ZIP code</li>
+</ul>
+<h3 style="text-align: left;">What are <span style="text-decoration: underline;">personalized mail merged letters</span>?</h3>
+<p style="text-align: left;"><a href="https://en.wikipedia.org/wiki/Mail_merge" target="_blank" rel="noopener"><strong>Personalized merged letter mailings</strong></a> are taking mailing addresses with names to the next level. These are great for sending out fundraising mail pieces, special invitations and invoices. Since we stated above that data lists with the recipients&#8217; name gets better results, this combines that idea with the addition of other mail pieces within the sent envelope. Mail merged letters work very well for Non Profit Organizations to raise the funds they need. They accomplish this by sending out an <a href="https://bloomerang.co/blog/15-odd-things-that-make-direct-mail-fundraising-appeals-successful/" target="_blank" rel="noopener">appeal mailing</a>, which can consist of a few direct mail materials such as: #10 Mailing Envelope, <strong><em>*#9 Response Envelope</em></strong>, Merged letter with recipients name and information on it, and <em><strong>*Response Card</strong></em>.</p>
+<ul style="text-align: left;">
+<li><em>* These can both be swapped out for a <a href="http://localhost/crst.net/direct-mail-tools/envelope-sizes/">#6 3/4 Remit Envelope</a> which contains information for the recipient to add a check or cash.</em></li>
+</ul>
+<p style="text-align: left;">All (or most) of the enclosed pieces contain the recipients information on the mail piece in some way, from name and address information to Donor IDs or Account/Subscription numbers. This uses variable data placeholders on the <a href="http://localhost/crst.net/direct-mail-services/mail-design/">mail piece when designing it</a>. For each record on your data lists, a personalized mail piece will be created for them, placing all dynamic information into the areas you specify. The end result creates a custom mail piece as if you made it just for them, increasing the chance it gets opened and receiving a donation.</p>
+<div style="width: 100%; margin: 0 auto;" class="ml-slider-3-8-1 metaslider metaslider-flex metaslider-598 ml-slider">
+    <style type="text/css" id="metaslider-css-598">
+        #metaslider_598.flexslider .slides li {margin-right: 5px !important;}
+    </style>
+    <div id="metaslider_container_598">
+        <div id="metaslider_598">
+            <ul class="slides">
+                <li style="display: none; width: 100%;" class="slide-599 ms-image"><img width="466" height="621" src="http://localhost/crst.net/wp-content/uploads/2018/06/hyde-park-pba-appeal.jpg" class="slider-598 slide-599" alt="Hyde Park PBA appeal mailing" height="250" width="250" rel="" title="Hyde Park PBA Appeal mailing" srcset="http://localhost/crst.net/wp-content/uploads/2018/06/hyde-park-pba-appeal.jpg 466w, http://localhost/crst.net/wp-content/uploads/2018/06/hyde-park-pba-appeal-225x300.jpg 225w" sizes="(max-width: 466px) 100vw, 466px" /></li>
+                <li style="display: none; width: 100%;" class="slide-600 ms-image"><img width="466" height="621" src="http://localhost/crst.net/wp-content/uploads/2018/06/kingston-pba-appeal.jpg" class="slider-598 slide-600" alt="Kingston PBA appeal mailing" height="250" width="250" rel="" title="Kingston PBA appeal" srcset="http://localhost/crst.net/wp-content/uploads/2018/06/kingston-pba-appeal.jpg 466w, http://localhost/crst.net/wp-content/uploads/2018/06/kingston-pba-appeal-225x300.jpg 225w" sizes="(max-width: 466px) 100vw, 466px" /></li>
+                <li style="display: none; width: 100%;" class="slide-601 ms-image"><img width="466" height="621" src="http://localhost/crst.net/wp-content/uploads/2018/06/vivekenanda-appeal.jpg" class="slider-598 slide-601" alt="Vivekenanda Retreat appeal mailing materials" height="250" width="250" rel="" title="Vivekenanda Retreat appeal mailing" srcset="http://localhost/crst.net/wp-content/uploads/2018/06/vivekenanda-appeal.jpg 466w, http://localhost/crst.net/wp-content/uploads/2018/06/vivekenanda-appeal-225x300.jpg 225w" sizes="(max-width: 466px) 100vw, 466px" /></li>
+            </ul>
+        </div>
+        
+    </div>
+</div>
 <div>
 <div id="accordion1">
 <div style="text-align: left;">
-<h3><strong>Data Processing Steps:</strong></h3>
+<h3><strong>Cornerstone Services Data Processing Steps:</strong></h3>
 <h5>Step 1 &#8211; Manual File Inspection</h5>
 <p>We check to make sure all data is in the correct columns, there is no stray characters or symbols, names are in correct formats, character length is set for each row based on artwork size and any foreign addresses are correctly formatted with postal codes and country names (in all caps).</p>
 <h5>Step 2 -Address Corrections</h5>
@@ -361,7 +397,9 @@ MaterialisTheme = {"blog_posts_as_masonry_grid":false}
         </div>
     </div>
 </div>
-<a href="tel:(845) 255-5722" id="callnowbutton" onclick="ga('send', 'event', 'Contact', 'Call Now Button', 'Phone');"><img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2aWV3Qm94PSIwIDAgNjAgNjAiPjxwYXRoIGQ9Ik03LjEwNCAxNC4wMzJsMTUuNTg2IDEuOTg0YzAgMC0wLjAxOSAwLjUgMCAwLjk1M2MwLjAyOSAwLjc1Ni0wLjI2IDEuNTM0LTAuODA5IDIuMSBsLTQuNzQgNC43NDJjMi4zNjEgMy4zIDE2LjUgMTcuNCAxOS44IDE5LjhsMTYuODEzIDEuMTQxYzAgMCAwIDAuNCAwIDEuMSBjLTAuMDAyIDAuNDc5LTAuMTc2IDAuOTUzLTAuNTQ5IDEuMzI3bC02LjUwNCA2LjUwNWMwIDAtMTEuMjYxIDAuOTg4LTI1LjkyNS0xMy42NzRDNi4xMTcgMjUuMyA3LjEgMTQgNy4xIDE0IiBmaWxsPSIjMDMzYTdhIi8+PHBhdGggZD0iTTcuMTA0IDEzLjAzMmw2LjUwNC02LjUwNWMwLjg5Ni0wLjg5NSAyLjMzNC0wLjY3OCAzLjEgMC4zNWw1LjU2MyA3LjggYzAuNzM4IDEgMC41IDIuNTMxLTAuMzYgMy40MjZsLTQuNzQgNC43NDJjMi4zNjEgMy4zIDUuMyA2LjkgOS4xIDEwLjY5OWMzLjg0MiAzLjggNy40IDYuNyAxMC43IDkuMSBsNC43NC00Ljc0MmMwLjg5Ny0wLjg5NSAyLjQ3MS0xLjAyNiAzLjQ5OC0wLjI4OWw3LjY0NiA1LjQ1NWMxLjAyNSAwLjcgMS4zIDIuMiAwLjQgMy4xMDVsLTYuNTA0IDYuNSBjMCAwLTExLjI2MiAwLjk4OC0yNS45MjUtMTMuNjc0QzYuMTE3IDI0LjMgNy4xIDEzIDcuMSAxMyIgZmlsbD0iI2ZmZiIvPjwvc3ZnPg==" width="55">Give Us a Call!</a><script type='text/javascript' src='http://localhost/crst.net/wp-includes/js/admin-bar.min.js?ver=4.9.7'></script>
+<a href="tel:(845) 255-5722" id="callnowbutton" onclick="ga('send', 'event', 'Contact', 'Call Now Button', 'Phone');"><img src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB2aWV3Qm94PSIwIDAgNjAgNjAiPjxwYXRoIGQ9Ik03LjEwNCAxNC4wMzJsMTUuNTg2IDEuOTg0YzAgMC0wLjAxOSAwLjUgMCAwLjk1M2MwLjAyOSAwLjc1Ni0wLjI2IDEuNTM0LTAuODA5IDIuMSBsLTQuNzQgNC43NDJjMi4zNjEgMy4zIDE2LjUgMTcuNCAxOS44IDE5LjhsMTYuODEzIDEuMTQxYzAgMCAwIDAuNCAwIDEuMSBjLTAuMDAyIDAuNDc5LTAuMTc2IDAuOTUzLTAuNTQ5IDEuMzI3bC02LjUwNCA2LjUwNWMwIDAtMTEuMjYxIDAuOTg4LTI1LjkyNS0xMy42NzRDNi4xMTcgMjUuMyA3LjEgMTQgNy4xIDE0IiBmaWxsPSIjMDMzYTdhIi8+PHBhdGggZD0iTTcuMTA0IDEzLjAzMmw2LjUwNC02LjUwNWMwLjg5Ni0wLjg5NSAyLjMzNC0wLjY3OCAzLjEgMC4zNWw1LjU2MyA3LjggYzAuNzM4IDEgMC41IDIuNTMxLTAuMzYgMy40MjZsLTQuNzQgNC43NDJjMi4zNjEgMy4zIDUuMyA2LjkgOS4xIDEwLjY5OWMzLjg0MiAzLjggNy40IDYuNyAxMC43IDkuMSBsNC43NC00Ljc0MmMwLjg5Ny0wLjg5NSAyLjQ3MS0xLjAyNiAzLjQ5OC0wLjI4OWw3LjY0NiA1LjQ1NWMxLjAyNSAwLjcgMS4zIDIuMiAwLjQgMy4xMDVsLTYuNTA0IDYuNSBjMCAwLTExLjI2MiAwLjk4OC0yNS45MjUtMTMuNjc0QzYuMTE3IDI0LjMgNy4xIDEzIDcuMSAxMyIgZmlsbD0iI2ZmZiIvPjwvc3ZnPg==" width="55">Give Us a Call!</a><link rel='stylesheet' id='metaslider-flex-slider-css'  href='http://localhost/crst.net/wp-content/plugins/ml-slider/assets/sliders/flexslider/flexslider.css?ver=3.8.1' type='text/css' media='all' property='stylesheet' />
+<link rel='stylesheet' id='metaslider-public-css'  href='http://localhost/crst.net/wp-content/plugins/ml-slider/assets/metaslider/public.css?ver=3.8.1' type='text/css' media='all' property='stylesheet' />
+<script type='text/javascript' src='http://localhost/crst.net/wp-includes/js/admin-bar.min.js?ver=4.9.7'></script>
 <script type='text/javascript'>
 /* <![CDATA[ */
 var wpcf7 = {"apiSettings":{"root":"http:\/\/localhost\/crst.net\/wp-json\/contact-form-7\/v1","namespace":"contact-form-7\/v1"},"recaptcha":{"messages":{"empty":"Please verify that you are not a robot."}},"cached":"1"};
@@ -379,6 +417,35 @@ var wpcf7 = {"apiSettings":{"root":"http:\/\/localhost\/crst.net\/wp-json\/conta
 <script type='text/javascript' src='http://localhost/crst.net/wp-includes/js/masonry.min.js?ver=3.3.2'></script>
 <script type='text/javascript' src='http://localhost/crst.net/wp-content/themes/materialis/assets/js/theme.js?ver=1.0.99'></script>
 <script type='text/javascript' src='http://localhost/crst.net/wp-includes/js/wp-embed.min.js?ver=4.9.7'></script>
+<script type='text/javascript' src='http://localhost/crst.net/wp-content/plugins/ml-slider/assets/sliders/flexslider/jquery.flexslider.min.js?ver=3.8.1'></script>
+<script type='text/javascript'>
+var metaslider_598 = function($) {
+            $('#metaslider_598').addClass('flexslider'); /* theme/plugin conflict avoidance */
+            $('#metaslider_598').flexslider({ 
+                slideshowSpeed:3000,
+                animation:'slide',
+                controlNav:true,
+                directionNav:true,
+                pauseOnHover:false,
+                direction:'horizontal',
+                reverse:false,
+                animationSpeed:600,
+                prevText:"Previous",
+                nextText:"Next",
+                fadeFirstSlide:true,
+                easing:"linear",
+                slideshow:false,
+                itemWidth:250,
+                minItems:1,
+                itemMargin:5
+            });
+        };
+        var timer_metaslider_598 = function() {
+            var slider = !window.jQuery ? window.setTimeout(timer_metaslider_598, 100) : !jQuery.isReady ? window.setTimeout(timer_metaslider_598, 1) : metaslider_598(window.jQuery);
+        };
+        timer_metaslider_598();
+</script>
+<script type='text/javascript' src='http://localhost/crst.net/wp-content/plugins/ml-slider/assets/easing/jQuery.easing.min.js?ver=3.8.1'></script>
 	<!--[if lte IE 8]>
 		<script type="text/javascript">
 			document.body.className = document.body.className.replace( /(^|\s)(no-)?customize-support(?=\s|$)/, '' ) + ' no-customize-support';
@@ -453,12 +520,12 @@ var wpcf7 = {"apiSettings":{"root":"http:\/\/localhost\/crst.net\/wp-json\/conta
 		<li id="wp-admin-bar-my-account" class="menupop with-avatar"><a class="ab-item" aria-haspopup="true" href="http://localhost/crst.net/wp-admin/profile.php">Howdy, <span class="display-name">Sean Griffin</span><img alt='' src='http://1.gravatar.com/avatar/d97423e79084f6278f295efa75e37d22?s=26&#038;r=g' srcset='http://1.gravatar.com/avatar/d97423e79084f6278f295efa75e37d22?s=52&#038;r=g 2x' class='avatar avatar-26 photo' height='26' width='26' /></a><div class="ab-sub-wrapper"><ul id="wp-admin-bar-user-actions" class="ab-submenu">
 		<li id="wp-admin-bar-user-info"><a class="ab-item" tabindex="-1" href="http://localhost/crst.net/wp-admin/profile.php"><img alt='' src='http://1.gravatar.com/avatar/d97423e79084f6278f295efa75e37d22?s=64&#038;r=g' srcset='http://1.gravatar.com/avatar/d97423e79084f6278f295efa75e37d22?s=128&#038;r=g 2x' class='avatar avatar-64 photo' height='64' width='64' /><span class='display-name'>Sean Griffin</span><span class='username'>sgriffin</span></a>		</li>
 		<li id="wp-admin-bar-edit-profile"><a class="ab-item" href="http://localhost/crst.net/wp-admin/profile.php">Edit My Profile</a>		</li>
-		<li id="wp-admin-bar-logout"><a class="ab-item" href="http://localhost/crst.net/wp-login.php?action=logout&#038;_wpnonce=3cd0561362">Log Out</a>		</li></ul></div>		</li></ul>			</div>
-						<a class="screen-reader-shortcut" href="http://localhost/crst.net/wp-login.php?action=logout&#038;_wpnonce=3cd0561362">Log Out</a>
+		<li id="wp-admin-bar-logout"><a class="ab-item" href="http://localhost/crst.net/wp-login.php?action=logout&#038;_wpnonce=d069a70efb">Log Out</a>		</li></ul></div>		</li></ul>			</div>
+						<a class="screen-reader-shortcut" href="http://localhost/crst.net/wp-login.php?action=logout&#038;_wpnonce=d069a70efb">Log Out</a>
 					</div>
 
 		</body>
 </html>
 
-<!-- Dynamic page generated in 1.061 seconds. -->
-<!-- Cached page generated by WP-Super-Cache on 2018-07-09 20:54:30 -->
+<!-- Dynamic page generated in 0.619 seconds. -->
+<!-- Cached page generated by WP-Super-Cache on 2018-07-10 21:49:41 -->
