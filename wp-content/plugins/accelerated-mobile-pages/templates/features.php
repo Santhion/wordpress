@@ -1113,6 +1113,7 @@ function ampforwp_new_dir( $dir ) {
 
 			// 10.1 Analytics Support added for Google Analytics
 				global $redux_builder_amp;
+			if( false == $redux_builder_amp['amp-use-gtm-option'] ) {
 				if ( true == $redux_builder_amp['ampforwp-ga-switch'] ){
 					$ga_fields = array();
 					$ampforwp_ga_fields = array();
@@ -1134,15 +1135,15 @@ function ampforwp_new_dir( $dir ) {
 						$ga_fields['vars']['anonymizeIP'] = 'true';
 					}
 					$ampforwp_ga_fields = json_encode( $ga_fields);
-					$ampforwp_ga_fields = apply_filters('ampforwp_advance_google_analytics', $ampforwp_ga_fields );
-				 ?>
+					$ampforwp_ga_fields = apply_filters('ampforwp_advance_google_analytics', $ampforwp_ga_fields ); ?>
 						<amp-analytics <?php if(ampforwp_get_data_consent()){?>data-block-on-consent <?php } ?> type="googleanalytics" id="analytics1">
 							<script type="application/json">
 								<?php echo $ampforwp_ga_fields; ?>
 							</script>
 						</amp-analytics>
 						<?php
-					}//code ends for supporting Google Analytics
+				}
+			}//code ends for supporting Google Analytics
 
 			// 10.2 Analytics Support added for segment.com
 				if ( true == $redux_builder_amp['ampforwp-Segment-switch'] ) { ?>
@@ -2676,14 +2677,20 @@ add_action('init', 'amp_gtm_remove_analytics_code');
 function amp_gtm_remove_analytics_code() {
   global $redux_builder_amp;
   if( isset($redux_builder_amp['amp-use-gtm-option']) && $redux_builder_amp['amp-use-gtm-option'] ) {
-    remove_action('amp_post_template_footer','ampforwp_analytics',11);
-  	remove_action('amp_post_template_head','ampforwp_register_analytics_script', 20);
+
+	  ///////////////////////////////////////////////////////////////////////////
+  	// will add the scripts and analytics codes since #2340 version 0.9.97.5 //
+	  ///////////////////////////////////////////////////////////////////////////
+
+   //  remove_action('amp_post_template_footer','ampforwp_analytics',11);
+  	// remove_action('amp_post_template_head','ampforwp_register_analytics_script', 20);
+  	
   	//Add GTM Analytics code right after the body tag
   	add_action('ampforwp_body_beginning','amp_post_template_add_analytics_data',10);
   } else {
     remove_filter( 'amp_post_template_analytics', 'amp_gtm_add_gtm_support' );
-
   }
+
 }
 //Remove other analytics if GTM is enable
 add_action('amp_post_template_footer','ampforwp_gtm_support', 9);
@@ -2816,11 +2823,11 @@ function ampforwp_facebook_comments_markup() {
 		$facebook_comments_markup = '<section class="amp-wp-content post-comments amp-wp-article-content amp-facebook-comments" id="comments">';
 		$facebook_comments_markup .= '<amp-facebook-comments width=486 height=357
 	    		layout="responsive" '.$locale.' data-numposts=';
-		$facebook_comments_markup .= '"'. $redux_builder_amp['ampforwp-number-of-fb-no-of-comments']. '" ';
+		$facebook_comments_markup .= '"'. $redux_builder_amp['ampforwp-number-of-fb-no-of-comments']. '"';
 	    if(ampforwp_get_data_consent()){		
-	    	$facebook_comments_markup .= 'data-block-on-consent';
+	    	$facebook_comments_markup .= ' data-block-on-consent ';
 	    }
-		$facebook_comments_markup .= 'data-href=" ' . get_permalink() . ' "';
+		$facebook_comments_markup .= 'data-href=" ' . get_permalink() . '"';
 	    $facebook_comments_markup .= '></amp-facebook-comments> </section>';
 
 		return $facebook_comments_markup;
@@ -4008,20 +4015,24 @@ function ampforwp_frontpage_comments() {
 add_action('pre_amp_render_post','ampforwp_apply_layout_builder_on_pages',20);
 function ampforwp_apply_layout_builder_on_pages($post_id) {
 	global $redux_builder_amp;
-
+	$sidebar_check = null;
 	if ( ampforwp_is_front_page() ) {
 		$post_id = ampforwp_get_frontpage_id();
 	}
-	$sidebar_check = get_post_meta( $post_id,'ampforwp_custom_sidebar_select',true); 
 
 	if ( $redux_builder_amp['ampforwp-content-builder'] ) {
+		if ( is_page() ) {
+			$sidebar_check = get_post_meta( $post_id,'ampforwp_custom_sidebar_select',true); 
+		}
 		// Add Styling Builder Elements
 		add_action('amp_post_template_css', 'ampforwp_pagebuilder_styling', 20);
 
-		// Removed Titles for Pagebuilder elements
-		remove_filter( 'ampforwp_design_elements', 'ampforwp_add_element_the_title' );
-		remove_action('ampforwp_design_2_frontpage_title','ampforwp_design_2_frontpage_title');
-		remove_action('ampforwp_design_2_frontpage_title','ampforwp_design_2_frontpage_title');
+		if ( 'layout-builder' == $sidebar_check ) {
+			// Removed Titles for Pagebuilder elements
+			remove_filter( 'ampforwp_design_elements', 'ampforwp_add_element_the_title' );
+			remove_action('ampforwp_design_2_frontpage_title','ampforwp_design_2_frontpage_title');
+			remove_action('ampforwp_design_2_frontpage_title','ampforwp_design_2_frontpage_title');
+		}
 	}	
 }
 
@@ -4544,7 +4555,6 @@ function ampforwp_posts_to_remove () {
 				'ignore_sticky_posts' => 1,
 				'posts_per_page' 	  => -1,
 				'cat'				  => $new_selected_cats ,
-				'fields'			  => 'ids',
 				'post_type'           => 'post',
 				'post_status'         => 'publish', 
 			) 
@@ -7382,4 +7392,17 @@ function ampforwp_spotim_vuukle_styling(){
 			display: block;text-align: center;background: #1f87e5;color: #fff;border-radius: 4px;
 		} <?php 
 	}
+}
+
+
+function ampforwp_check_excerpt(){
+	global $redux_builder_amp;
+ 
+	$value = '';
+	$value =  ( isset( $redux_builder_amp['excerpt-option'] ) &&  $redux_builder_amp['excerpt-option'] ) ;
+	if ( null == $value ) {
+		$value = '1';
+	}
+ 
+	return $value;
 }
