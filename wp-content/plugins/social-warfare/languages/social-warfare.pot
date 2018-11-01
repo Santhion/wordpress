@@ -378,7 +378,7 @@ msgid "Facebook Author URL"
 msgstr ""
 
 #: functions/profile-fields.php:31
-msgid "Please enter the URL of your Facebok profile."
+msgid "Please enter the URL of your Facebook profile."
 msgstr ""
 
 #: functions/scripts.php:105
